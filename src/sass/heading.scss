@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap');
+$base-color: #F2D7D9;
+section {
+    background-color: $base-color;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header {
+    
+    h1 {
+        font-family: 'Noto Serif', serif;
+        font-size: xx-large;
+    }
+    p{
+        font-size: medium;
+    }
+    button {
+        background-color: #D3CEDF;
+        padding: 10px 15px;
+        border-radius: 10px;
+        cursor: pointer;
+        border: 1px solid black;
+        box-shadow: 3px 2px black;
+    }
+    button a {
+        text-decoration: none;
+        color: black;
+    }
+    button:hover {
+        background-color: white;
+    }
+    div {
+        height: auto;
+    }
+    button:active {
+        box-shadow: none;
+        transform: translate(3px, 2px);
+    }
+}
