@@ -3,18 +3,16 @@ $base-color: #F2D7D9;
 section {
     background-color: $base-color;
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 header {
-    
+    text-shadow: 2px 2px 8px black;
     h1 {
         font-family: 'Noto Serif', serif;
         font-size: xx-large;
     }
     p{
         font-size: medium;
+        margin-bottom: 10px;
     }
     button {
         background-color: #D3CEDF;
@@ -24,15 +22,11 @@ header {
         border: 1px solid black;
         box-shadow: 3px 2px black;
     }
-    button a {
-        text-decoration: none;
-        color: black;
-    }
     button:hover {
         background-color: white;
     }
     div {
-        height: auto;
+        height: 48px;
     }
     button:active {
         box-shadow: none;

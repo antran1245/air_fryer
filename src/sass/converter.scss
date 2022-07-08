@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap');
+$base-color: #9CB4CC;
+#convertion {
+    background-color: $base-color;
+    height: 100vh;
+    h4 {
+        font-family: 'Noto Serif', serif;
+    }
+    > div {
+        padding: 10px;
+        text-align: center;
+    }
+    text-shadow: 2px 2px 6px black;
+}
+form {
+    .form-group {
+        display: flex;
+        flex-direction: column;
+        padding: 5px 10px;
+        label {
+            margin-bottom: 5px;
+        }
+        input {
+            box-shadow: 0px 0px 8px black;
+            padding: 5px 10px;
+            border: none;
+            border-radius: 10px;
+        }
+        .error {
+            color: red;
+        }
+    }
+}
