@@ -11,4 +11,10 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+    scroll-snap-align: center;
+}
+
+.main {
+    scroll-snap-type: y mandatory;
+    height: 100vh;
 }
